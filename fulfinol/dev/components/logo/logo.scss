@@ -1,0 +1,45 @@
+@import "../bootstrap/scss/_functions";
+@import "../bootstrap/scss/_variables";
+@import "../bootstrap/scss/_mixins";
+@import "../base/_functions";
+@import "../base/_variables";
+
+// Base
+.logo {
+	margin: 0 auto;
+}
+
+.logo-link {
+	> * {
+		margin-top: 0;
+	}
+}
+
+.logo-image-inverse {
+	display: none;
+}
+
+
+// Spacing
+.logo + p {
+	margin-top: px-to-rem( 30px );
+}
+
+
+// Contexts
+.context-dark {
+	.logo-image-default {
+		display: none;
+	}
+
+	.logo-image-inverse {
+		display: inline-block;
+	}
+}
+
+@include media-breakpoint-down(xs) {
+	.logo {
+		margin: 80px;
+		width: 33%;
+	}
+}

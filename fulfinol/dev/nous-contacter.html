@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <title>Contact us</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta property="og:title" content="Nous contacter">
+    <meta property="og:description" content="Pour nous contacter">
+    <meta property="og:image" content="http://digipunk.netii.net/images/radar.gif">
+    <meta property="og:url" content="http://digipunk.netii.net">
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="components/base/base.css">
+    <script src="components/base/core.min.js"></script>
+    <script src="components/base/script.js"></script>
+  </head>
+  <body>
+    <div class="page">
+      <!-- Page title-->
+      <section class="section page-title bg-image context-dark" style="background-image: url(images/background/bg-5-1920x496.jpg);">
+        <!--RD Navbar-->
+        <header class="section rd-navbar-wrap">
+          <nav class="rd-navbar rd-navbar-default">
+            <div class="navbar-container">
+              <div class="navbar-cell">
+                <div class="navbar-panel">
+                  <!-- Logo-->
+                  <div class="logo"><a class="logo-link" href="index.html"><img class="logo-image-default" src="images/sdfg2.png" alt="Charia" width="196" height="45"/><img class="logo-image-inverse" src="images/sdfg2.png" alt="Charia" width="196" height="45"/></a></div>
+                </div>
+              </div>
+              <div class="navbar-cell navbar-spacer"></div>
+              <div class="navbar-cell">
+                <ul class="navbar-navigation rd-navbar-nav"></ul>
+                 
+              </div>
+              <div class="navbar-cell">
+                <div class="navbar-subpanel">
+                  <div class="navbar-subpanel-item">
+                    
+                    <div class="navbar-list">
+                    </div>
+                  </div>
+                  <div class="navbar-subpanel-item">
+                   
+                    <div class="navbar-aside navbar-cart">
+                      <div class="navbar-cart-item">
+                        <div class="navbar-cart-item-left"><a class="thumbnail-small" href="single-product.html"><img src="images/product/product-1-72x91.jpg" alt="" width="72" height="91"/></a></div>
+                        <div class="navbar-cart-item-body"><a class="navbar-cart-item-heading" href="single-product.html">Spring Harvest 2020 Songbook: Unleashed</a>
+                          <div class="navbar-cart-item-price d-flex group-10 justify-content-between">
+                            <div>2 x <span class="navbar-cart-item-price-value">$35.00</span>
+                            </div>
+                            
+                          </div>
+                        </div>
+                      </div>
+                      <div class="navbar-cart-total">Subtotal: $70.00</div><a class="btn btn-sm navbar-cart-btn" href="checkout.html">Checkout</a>
+                    </div>
+                  </div>
+                  <div class="navbar-subpanel-item">
+                    <!--include _search--><span class="navbar-contact-text"></span>
+                    <div class="navbar-contact">
+                      <ul class="list list-sm">
+                        <li class="list-item">
+                          <h4 class="text-uppercase text-primary"></h4>
+                        </li>
+                        <li class="list-item"><a class="link link-inherit-primary big2" href="tel:#"></a></li>
+                        <li class="list-item"><a class="link link-inherit-primary" href="mailto:#">contact@fulfinol.com</a></li>
+                        <li class="list-item"><span>355 S Grand Ave, <br/>Los Angeles, CA 90071</span></li>
+                      </ul>
+                      <ul class="list list-divided">
+                        <li class="list-item">
+                          
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </nav>
+        </header>
+        <div class="container">
+          <div class="row">
+            <div class="col-md-10 col-xl-8">
+              <h2 class="page-title-text">vous permettre de nous contacter.</h2>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Contact info-->
+      <section class="section-md bg-100">
+        <div class="container">
+          <div class="row row-30 row-xl-55 justify-content-between align-items-center">
+            <div class="col-sm-5 col-md-4">
+                    
+            </div>
+            <div class="col-sm-7 col-md-8">
+                    
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Contact form-->
+      <section class="section-md bg-100">
+        <div class="container">
+          <h4 class="h3-big">Si vous ne souhaitez pas remplir ce formulaire vous pouvez écrire un mail à part depuis votre boîte mail.</h4>
+          <form class="rd-mailform rd-form" data-form-output="form-consultation" data-form-type="contact" method="post" action="components/rd-mailform/rd-mailform.php">
+            <div class="row row-25 row-gutters-24">
+              <div class="col-md-4">
+                <div class="form-group">
+                  <input class="form-control" type="text" name="name" placeholder="Votre nom*" data-constraints="@Required">
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="form-group">
+                  <input class="form-control" type="text" name="phone" placeholder="Numéro de téléphone*" data-constraints="@PhoneNumber @Required">
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="form-group">
+                  <input class="form-control" type="email" name="email" placeholder="E-mail*" data-constraints="@Email @Required">
+                </div>
+              </div>
+              <div class="col-md-12">
+                <div class="form-group">
+                  <textarea class="form-control" name="comment" placeholder="Message"></textarea>
+                </div>
+              </div>
+              <div class="col-sm-12">
+                <button class="btn btn-white" type="submit">Je valide le formulaire.</button>
+              </div>
+            </div>
+          </form>
+          <div class="form-output snackbar snackbar-primary" id="form-consultation"></div>
+        </div>
+      </section>
+      <!-- Footer contact-->
+      <footer class="footer-contact context-dark bg-900 text-center">
+        <div class="container">
+          <div class="footer-row">
+            <div class="footer-logo">
+                    <!-- Logo-->
+                    <div class="logo"><a class="logo-link" href="index.html"><img class="logo-image-default" src="https://i.imgur.com/hvUJdGw.png" alt="Charia" width="196" height="45"/><img class="logo-image-inverse" src="https://i.imgur.com/hvUJdGw.png" alt="Charia" width="196" height="45"/></a></div>
+            </div>
+          </div>
+          <div class="footer-row">
+            <ul class="footer-menu">
+              <li><a href="index.html">à propos</a></li>
+              <li><a href="index.html">Donations</a></li>
+              <li><a href="index.html">évènements</a></li>
+              <li><a href="index.html">Serments</a></li>
+              <li><a href="index.html">Conactez-nous</a></li>
+            </ul>
+          </div>
+          <div class="footer-row">
+            <h4></h4><a class="link link-large" href="https://discord.gg/NJ6UEB6KSQ">Nous rejoindre</a>
+            <ul class="social social-bordered footer-social">
+              <li><a class="social-icon icon icon-md mdi-youtube-play" href="incoming..."></a></li>
+              <li><a class="social-icon icon icon-md mdi-linkedin" href="incoming..."></a></li>
+              <li><a class="social-icon icon icon-md mdi-twitter" href="incoming..."></a></li>
+            
+            </ul>
+          </div>
+          <div class="footer-row">
+            <div class="h6"></div>
+                  <!-- Copyright-->
+                  <p class="rights"><span>&copy;2021&nbsp;</span><span>Fulfinol</span><span>. Tous droits réservés.&nbsp;</span><a class="link link-inherit rights-link" href="privacy-policy.html"></a></p>
+          </div>
+        </div>
+      </footer>
+    </div>
+      
+    <!-- Preloader-->
+    <div class="preloader">
+      <div class="preloader-inner">
+        <div class="preloader-dot"></div>
+        <div class="preloader-dot"></div>
+        <div class="preloader-dot"></div>
+        <div class="preloader-dot"></div>
+      </div>
+    </div>
+  </body>
+</html>
